@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52666EE422BA49C2009474C6 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52666EE322BA49C2009474C6 /* CustomTableViewCell.swift */; };
 		529915AA22B9672F001D0CEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529915A922B9672F001D0CEE /* AppDelegate.swift */; };
 		529915AF22B9672F001D0CEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529915AD22B9672F001D0CEE /* Main.storyboard */; };
 		529915B122B96730001D0CEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529915B022B96730001D0CEE /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52666EE322BA49C2009474C6 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		529915A622B9672F001D0CEE /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529915A922B9672F001D0CEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		529915AE22B9672F001D0CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				529915A922B9672F001D0CEE /* AppDelegate.swift */,
 				529915BB22B971A1001D0CEE /* MainViewController.swift */,
+				52666EE322BA49C2009474C6 /* CustomTableViewCell.swift */,
 				529915AD22B9672F001D0CEE /* Main.storyboard */,
 				529915B022B96730001D0CEE /* Assets.xcassets */,
 				529915B222B96730001D0CEE /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52666EE422BA49C2009474C6 /* CustomTableViewCell.swift in Sources */,
 				529915AA22B9672F001D0CEE /* AppDelegate.swift in Sources */,
 				529915BC22B971A1001D0CEE /* MainViewController.swift in Sources */,
 			);
